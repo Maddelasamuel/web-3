@@ -1,0 +1,14 @@
+function resume(){
+    let firstname;
+    firstname=document.getelementById('firstname').value;
+    let middlename;
+    middlename=document.getElementById('middlename').value;
+    let lastaname;
+    lastname=document.getElementById('lastname').value;
+    console.log(firstname);
+    console.log(middlename);
+    console.log(lastname);
+    document.getElementById('name').innerhtml=firstname;
+    document.getElementById('name').innerhtml=middlename;
+    document.getElementById(;'name').innerhtml=lastname;
+}
